@@ -1,0 +1,28 @@
+{
+  "name": "gulp-base-pjzj",
+  "version": "1.0.0",
+  "description": "自动化基本配置",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujunhao8831/gulp-base.git"
+  },
+  "author": "披荆斩棘",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yujunhao8831/gulp-base/issues"
+  },
+  "homepage": "https://github.com/yujunhao8831/gulp-base#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-imagemin": "^3.0.2",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-rename": "^1.2.2"
+  }
+}

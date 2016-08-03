@@ -1,0 +1,253 @@
+body {
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+.lottery-pointer {
+    position: absolute;
+    top: 44.5%;
+    left: 30.9%;
+    width: 11%;
+}
+.lottery-pointer-text {
+    position: absolute;
+    color: #f9fbe8;
+    top: 56%;
+    left: 34%;
+    /* width: 100px; */
+    width: 6%;
+    line-height: 35px;
+    font-size: 30px;
+}
+#nav > section .lottery-number {
+    position: absolute;
+    top: 22.5%;
+    font-size: 12px;
+    left:34%;
+    color: #ffffff;
+    font-weight:900;
+    text-shadow: 1px 0px 1px #442204, -2px 2px 0px #442204,  0px 3px 0px #442204, -1px 1px 0px #442204, 1px 1px 2px #442204;
+}
+#nav > section .lottery-number > .number-big {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #f75651;
+    line-height: 1.4;
+    font-stretch:ultra-expanded ;
+}
+
+#footer > section .lottery-bottom-2code {
+    position: absolute;
+    top: 5%;
+    right: 18%;
+}
+
+#footer > section .lottery-bottom-2code .bottom-2code-img {
+    width:50%;
+    margin: 0 auto;
+}
+#footer > section .lottery-bottom-2code .bottom-2code-info {
+    color:#ffffff;
+    font-size:12px;
+    padding-top: 12px;
+}
+
+
+.lottery-rule-div {
+    position: absolute;
+    top: 3%;
+    left: 21%;
+}
+.lottery-rule-div > ol {
+    color: #ffffff;
+}
+.lottery-rule-div > ol > .none-li-num {
+    list-style: none;
+}
+
+@media (min-width: 992px) {
+    #nav .winning-section {
+        width: 280px;
+        position: absolute;
+        top:51%;
+        right:23.5%
+    }
+}
+
+@media (min-width: 1200px) {
+    #nav .winning-section {
+        width: 280px;
+        position: absolute;
+        top:51%;
+        right:20.5%
+    }
+}
+@media (min-width: 1440px) {
+    #nav .winning-section {
+        width: 280px;
+        position: absolute;
+        top:51%;
+        right:21.5%
+    }
+    .lottery-pointer-text {
+        top: 57%;
+        left: 33.8%;
+        width: 7%;
+        line-height: 35px;
+        font-size: 38px;
+    }
+    .lottery-rule-div {
+        top: 12%;
+        left: 21%;
+    }
+    #footer > section .lottery-bottom-2code {
+        top: 12%;
+        right: 23%;
+    }
+}
+
+@media (min-width: 1680px) {
+    #nav .winning-section {
+        width: 280px;
+        position: absolute;
+        top:51%;
+        right:22.5%
+    }
+}
+
+@media (min-width: 1920px) {
+    #nav .winning-section {
+        width: 280px;
+        position: absolute;
+        top:51%;
+        right:25.5%
+    }
+
+    .lottery-rule-div {
+        top: 12%;
+        left: 21%;
+    }
+
+    #footer > section .lottery-bottom-2code {
+        top: 12%;
+        right: 18%;
+    }
+
+    .lottery-pointer-text {
+        top: 57%;
+        left: 34.5%;
+        width: 5%;
+        line-height: 35px;
+        font-size: 38px;
+    }
+}
+
+
+
+
+.my-lottery-list {
+    position: relative;
+}
+.my-lottery-list .my-lottery-context {
+    position: absolute;
+    width:50%;
+    top:27%;
+    left:25%;
+}
+
+
+
+#footer > section .lottery-button-read {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+#footer > section .lottery-button-read .button-read-img {
+    width:50%;
+    border-radius:0% 0% 17% 17%;
+    margin: 0 auto;
+}
+
+
+
+
+.user-lottery-records {
+    table-layout:fixed;
+}
+.user-lottery-records td {
+    white-space:nowrap;overflow:hidden; text-overflow:ellipsis;
+}
+
+.clear-text-overflow {
+    white-space:nowrap;overflow:hidden; text-overflow:ellipsis;
+}
+
+/* 轮播图样式 */
+
+.slider {
+    width: 100%;
+    max-width: 1920px;
+    max-height: 705px;
+    margin: 30px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+/* /轮播图样式 */
+
+/* 中奖用户轮播 */
+.lottery-records-target {
+    /*height: 100px;*/
+    margin: 0 auto
+}
+
+/* /中奖用户轮播 */
+
+.bd_weixin_popup {
+    padding: 0 !important;
+}
+
+.lottery-share {
+    position:fixed;
+    top:5%;
+    right:0%;
+}
+
+.lottery-time-title {
+    position:absolute;
+    top:95%;
+    right:17%;
+    color:#ffffff;
+}
+
+
+
+.winning-section ul li {
+    font-size:10px;
+    float:left;
+}
+.winning-section ul > .prizeName {
+    width:40%;
+}
+.winning-section ul > .userName {
+    width:15%;
+
+}
+.winning-section ul > .phone {
+
+}
+
+.winning-section .lottery-records-title > .prizeName {
+    text-align: center;
+}
